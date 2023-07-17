@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home-h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 30px;
+  margin-top: 10px;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+
+  font-weight: 600;
+}
+
+.icons .fa {
+  color: #be7527;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.fa-heart-o {
+  color: #be7527;
+  padding: 0 3px;
+}
+
+/* about us content */
+
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-col h2 {
+  padding-top: 0;
+}
+
+.about-col p {
+  padding: 15px 0 25px;
+}
+
+.hero-btn.red-btn {
+  border: 1px solid #be7527;
+  background: transparent;
+  color: #be7527;
+}
+
+.hero-btn.red-btn:hover {
+  border: 1px solid #be7527;
+  background-color: #be7527;
+  color: #fff;
+}
+
+.hero-btn.red-btn::after {
+  background-color: #be7527;
+}
+
+.hero-btn.red-btn::before {
+  background-color: #be7527;
+}
+
+.content-image {
+  flex-basis: 50%;
+}
+
+.about-col img {
+  width: 100%;
+}
+
+.blog-content {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.blog-left {
+  flex-basis: 65%;
+}
+
+.blog-right {
+  flex-basis: 32%;
+}
+
+.blog-left img {
+  width: 100%;
+}
+
+.blog-left h2 {
+  color: #222;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.blog-left p {
+  color: #999;
+  padding: 0;
+}
+
+.blog-right h3 {
+  background-color: #be7527;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 0;
+  margin-bottom: 20px;
+}
+
+.blog-right div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.coment-box {
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+}
+
+.coment-box h3 {
+  text-align: left;
+}
+
+.coment-form input,
+.coment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  resize: none;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+}
+
+.coment-form button {
+  margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+  .sub-header h1 {
+    font-size: 24px;
+  }
+}

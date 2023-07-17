@@ -1,0 +1,123 @@
+* {
+  font-family: "Source Code Pro", monospace;
+}
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2e373f;
+  color: #fff;
+  display: grid;
+  place-content: center;
+}
+.box-login {
+  /* font-family: "Source Code Pro", monospace; */
+  box-sizing: border-box;
+  background-color: #000;
+  border-radius: 5px;
+  /* width: 33vw;
+    height: 60vh; */
+  padding: 20px;
+}
+
+img.twitter-logo {
+  width: 40px;
+
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  margin-top: -16px;
+}
+
+.social-media-button {
+  cursor: pointer;
+  border: none;
+  padding: 1px;
+  width: 200px;
+  height: 29px;
+  border-radius: 50px;
+}
+.social-media-login-box {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 5px;
+}
+.box-login-divider {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.line-divider {
+  width: 45%;
+  height: 0.5px;
+  background-color: #fff;
+  margin: 10px 0;
+}
+.letter-divider {
+  margin: 3px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.input-login-form {
+  border: none;
+  border: 0.5px solid white;
+  border-radius: 3px;
+  height: 30px;
+  width: 200px;
+  background-color: black;
+  text-overflow: ellipsis;
+}
+.button-login {
+  cursor: pointer;
+  border: none;
+  padding: 1px;
+  width: 200px;
+  height: 20px;
+  border-radius: 50px;
+}
+.button-forgot-pw {
+  cursor: pointer;
+  padding: 1px;
+  font-size: 12px;
+  border: none;
+  width: 200px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #000;
+  border: 0.5px solid #fff;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.5s ease all;
+}
+.button-forgot-pw:hover {
+  background-color: #2e373f;
+}
+.letter {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  color: #fff;
+}
